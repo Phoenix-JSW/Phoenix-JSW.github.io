@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page - JSAnthony-Wylds</title>
+    <meta name="description" content="Email Janine Anthony-Wylds">
+    <!-- This is Eric Meyers SCC reset -->
+    <link rel="stylesheet" href="css-reset.css">
+    <!-- This is my own style sheet -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=IBM+Plex+Serif:ital,wght@0,300;0,400;1,200;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cb474fdf10.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <div class="container">
+      <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/header-logo.png" alt="Janine's Logo"></a>
+         </div>
+         
+         <nav>
+            <a href="#" class="navbuttons">Github Repository</a>
+            <a href="Profile-Page.html" class="navbuttons">Profile Page</a>
+            <a href="#" class="navbuttons">Django</a>
+            <a href="ContactMe.html" class="navbuttons">Contact</a>
+         </nav>
+
+      </header>
+
+   <main>
+       <div class="contact">
+       <h1>Contact Me</h1>
+       <p>If you would like to get in contact or even just leave some constructive comments, I'd love to hear them.  Remember I'm new to this, so more than willing to listen and learn?</p>
+    </div>
+
+    <form action="https://formspree.io/f/xpzbqqgn" method="post">
+      <!-- your code here -->
+
+
+      <div class="form-item">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+      </div>
+      <div class="form-item">
+          <label for="mail">Email</label>
+          <input type="email" id="mail" name="email">
+      </div>
+      <div class="form-item">
+          <label for="message">Message</label>
+          <textarea id="message" name="message"></textarea>
+      </div>
+      <div class="form-item">
+          <button type="submit">Send!</button>
+      </div>
+
+  </form>
+   </main>
+      
+ 
+
+</body>
+
+</html>
