@@ -7,7 +7,6 @@ body {
     background-image: linear-gradient(180deg,rgb(192, 221, 255), rgba(70, 101, 204, 0.712), rgba(0, 119, 255, 0.63));
     background-image: url(images/main-background-img.png);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
     font-family: 'Dancing Script', cursive;
     font-family: 'IBM Plex Serif', serif;
@@ -17,22 +16,16 @@ body {
 }
 
 a{
-  /* color: whitesmoke; */
   text-decoration: none;
 }
 
 .container {
-  /* width: 1024px; */
-  /* background-color: #FC5E55; */
   min-height: 300px;
   margin-left: auto;
   margin-right: auto;
 }
 
 header {
-
-  /* background-color: lightgreen; */
-  /* color: black; */
   min-height: 100px;
   display: flex;
   justify-content:space-between;
@@ -41,19 +34,26 @@ header {
   border-bottom: 1px solid black;
   margin-left: 10px;
 }
+footer {
+  min-height: 50px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 20px 5px 5px 20px;
+  border-top: 1px solid black;
+  margin-left: 10px;
+  color: black;
+}
 
 .logo img {
   margin: 10px;
 }
 main {
   min-height: 300px;
-  align-items: center;
-  padding-top: 20px
 }
 
 .contact {
   color: black;
-Con
 }
 .profilebox {
   display: flex;
@@ -67,78 +67,72 @@ Con
     text-align: justify;
 }
 .profilebox2 {
-  padding-top: 10%;
-    flex: 1;
+  padding-top: 5.00%;
+  flex: 1;
 }
 
 .cards {
   min-height: 300px;
-  min-width: 850px;
+  min-width: 500px;
   display: flex;
-  flex-direction: row;
-  justify-items: flex-start;
   flex-wrap: wrap;
-/* align-content: flex-start; */
-  color: white;
+  justify-content: space-evenly;
+  padding: 5px, 5px;
   text-align: center;
   margin-bottom: 20px;
-  padding: 5px, 5px;
+  color: black; 
+  
 }
 .card1 {
   background-image: url(images/card-background-img3.png);
   background-size: cover;
   background-position: bottom;
-  /* background-color: rgb(231, 164, 201); */
   min-height: 250px;
-  width: 20%;
+  width: 47%;
   box-shadow: 2px 5px 5px rgba(110, 110, 199, 0.582);
 }
 
 .card2 {
   background-image: url(images/card-background-img4.png);
   background-size: cover;
-  /* background-color: rgb(196, 86, 104); */
   min-height: 250px;
-  width: 20%;
+  width: 40%;
   box-shadow: 2px 5px 5px rgba(110, 110, 199, 0.582);
 }
 
 .card3 {
   background-image: url(images/card-background-img3.png);
   background-size: cover;
-    /* background-color: rgb(129, 49, 63); */
   min-height: 250px;
-  width: 20%;
+  width: 40%;
   box-shadow: 2px 5px 5px rgba(110, 110, 199, 0.582);
   }
 
 .card4 {
   background-image: url(images/card-background-img4.png);
   background-size: cover;
-        /* background-color: rgb(129, 49, 63); */
   min-height: 250px;
-  width: 20%;
+  width: 40%;
   box-shadow: 2px 5px 5px rgba(110, 110, 199, 0.582);
   }
 
 .card5 {
   background-image: url(images/card-background-img3.png);
   background-size: cover;
-          /* background-color: rgb(129, 49, 63); */
   min-height: 250px;
-  width: 20%;
+  width: 40%;
   box-shadow: 2px 5px 5px rgba(110, 110, 199, 0.582);
   }
 
 .card1, .card2, .card3, .card4, .card5 {
-  margin: 10px;
+  margin: 20px;
   padding: 20px 30px 20px 30px;
   box-sizing: border-box;
   border-radius: 10px;
 }
 
 .cards p {
-  font-size: .85rem;
+  font-size:1.25rem;
   margin-top: 10px;
 }
 
@@ -159,7 +153,7 @@ h2 {
 }
 
 p {
-  line-height: 1.5rem;
+  line-height: 2.5rew;
   margin-bottom: 0.5;
   }
 
@@ -174,7 +168,6 @@ p {
 }
 
 .navbuttons {
-  /* background-color: white; */
   border-style: solid;
   color: black;
   font-family: 'IBM Plex Serif', serif;
@@ -196,13 +189,11 @@ a.navbuttons {
 }
 
 .overviews {
-  /* display: flex; */
-  min-width: 650px;
+  min-width: 500px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 50px;
-
 }
 
 .obox {
@@ -233,7 +224,7 @@ a.navbuttons {
 
 .form-item input:hover,
 .form-item textarea:hover {
-  border: 2px solid #FA4224;
+  border: 2px solid #0f6a9e;
 }
 
 .form-item input,
@@ -246,12 +237,44 @@ a.navbuttons {
 }
 
 .form-item button:hover {
-  border: 2px solid #FA4224;
-  background-color: #FA4224;
+  border: 2px solid #0f6a9e;
+  background-color:#0f6a9e;
   color: #FFF;
 }
 
 .form-item button {
   width: 100px;
 }
+.caption h1 {
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.caption h2 {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding: 5px;
+  color:black;
+}
+.caption p {
+  color:black;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
